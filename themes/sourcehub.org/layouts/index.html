@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{.Title}}</title>
+    {{ $style := resources.Get "main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+  </head>
+  <body>
+    <nav>
+      <a href="/" class="brand">sourcehut</a>
+      <a href="https://meta.sr.ht/login" class="btn pull-right">
+        Go to sr.ht
+        <span class="icon">
+          {{ (resources.Get "caret-right.svg").Content | safeHTML }}
+        </span>
+      </a>
+    </nav>
+    {{.Content}}
+  </body>
+</html>
