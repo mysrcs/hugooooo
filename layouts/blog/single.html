@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{.Title}}</title>
+    {{ partial "head.html" }}
+  </head>
+  <body>
+    {{ partial "nav.html" }}
+    <main>
+      <header>
+        <div class="heading">
+          <div class="info">
+            <div class="content">
+              {{.Date.Format "January 2, 2006"}}
+              by {{.Params.author}}
+            </div>
+          </div>
+          <div class="content">
+            <h1>
+              {{.Title}}
+            </h1>
+          </div>
+        </div>
+      </header>
+      <article class="content">
+        {{.Content}}
+      </article>
+    </main>
+    {{ partial "footer.html" }}
+  </body>
+</html>
