@@ -2,211 +2,121 @@
 title: sourcehut - the hacker's forge
 ---
 
-<div class="index-grid">
-  <div class="left">
-    <p>
-      <strong>Welcome to sourcehut!</strong> This is the open source software
-      suite for managing your software development projects that you've been
-      waiting for.
-    </p>
-    <div class="alert alert-danger">
-      <strong>Achtung!</strong> Sourcehut is still under development. Much of it
-      is already useful, but you may find conspicuously missing features,
-      incomplete documentation, or minor bugs. However, we take great care to
-      ensure the integrity of your data even during the alpha.
+<section class="content">
+  <div class="service-grid">
+    <div class="left">
+      <h3>Hosted git repositories</h3>
+      <ul>
+        <li>Annotate your source with links, docs, references, etc</li>
+        <li>Public, private, and "unlisted" repositories</li>
+        <li>Fine grained access control, including access for users without accounts</li>
+        <li>
+          First-class <a href="https://hg.sr.ht">Mercurial support</a> also available
+        </li>
+      </ul>
     </div>
-    <h4>High-level features</h4>
-    <ul>
-      <li>
-        <a href="https://git.sr.ht/~sircmpwn/?search=sr.ht">
-          100% free and open source software
-        </a>
-      </li>
-      <li>
-        Composable Unix-style mini-services that let you use only what you need
-      </li>
-      <li>All features work without JavaScript</li>
-      <li>Absolutely no tracking or advertising</li>
-    </ul>
-    <p>
-      <strong><a href="https://sr.ht">sr.ht</a></strong> is a hosted instance of
-      sourcehut provided for your convenience.
-    </p>
-  </div>
-  <form
-    class="right"
-    method="POST"
-    action="https://meta.sr.ht/register"
-    style="align-self: end"
-  >
-    <div class="form-group">
-      <label for="username">Username</label>
-      <input type="text" name="username" id="username" />
-    </div>
-    <div class="form-group">
-      <label for="email">Email address</label>
-      <input type="email" name="email" id="email" />
-    </div>
-    <div class="form-group">
-      <label for="password">Password</label>
-      <input type="password" name="password" id="password" />
-    </div>
-    <div class="pull-right">
-      <button class="btn btn-primary" type="submit">
-        Register for sr.ht
-        <span class="icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"/></svg>
-        </span>
-      </button>
-      or <a href="https://meta.sr.ht/login">
-        log in
-        <span class="icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"/></svg>
-        </span>
+    <div class="right">
+      <a href="https://git.sr.ht/~sircmpwn/scdoc" target="_blank">
+        <img src="git.jpg" alt="Screenshot of git.sr.ht" />
       </a>
     </div>
-  </form>
-</div>
-<div class="service-grid">
-  <div class="left">
-    <h3>Hosted git repositories</h3>
-    <ul>
-      <li>Annotate your source with links, docs, references, etc</li>
-      <li>Public, private, and "unlisted" repositories</li>
-      <li>Fine grained access control, including access for users without accounts</li>
-      <li><a href="https://hg.sr.ht">Mercurial support</a> also available</li>
-    </ul>
   </div>
-  <div class="right">
-    <a href="https://git.sr.ht/~sircmpwn/scdoc" target="_blank">
-      <img src="git.jpg" alt="Screenshot of git.sr.ht" />
-    </a>
+  <div class="service-grid">
+    <div class="left">
+      <h3>Powerful continuous integration</h3>
+      <ul>
+        <li>
+          Runs fully virtualised builds on
+          <a target="_blank" href="https://man.sr.ht/builds.sr.ht/compatibility.md">
+            various Linux distros and BSDs
+          </a>
+        </li>
+        <li>Run anonymous jobs that aren't tied to a repository</li>
+        <li>Post-build triggers for email, webhooks, etc</li>
+        <li>Powerful API for complex build scenarios</li>
+      </ul>
+    </div>
+    <div class="right">
+      <a href="https://builds.sr.ht/~sircmpwn/job/26466" target="_blank">
+        <img src="builds.jpg" alt="Screenshot of builds.sr.ht" />
+      </a>
+    </div>
   </div>
-</div>
-<div class="service-grid">
-  <div class="left">
-    <h3>Powerful continuous integration</h3>
-    <ul>
-      <li>
-        Runs fully virtualised builds on
-        <a target="_blank" href="https://man.sr.ht/builds.sr.ht/compatibility.md">
-          various Linux distros and BSDs
-        </a>
-      </li>
-      <li>Run anonymous jobs that aren't tied to a repository</li>
-      <li>Post-build triggers for email, webhooks, etc</li>
-      <li>Powerful API for complex build scenarios</li>
-    </ul>
+  <div class="service-grid">
+    <div class="left">
+      <h3>Mailing lists &amp; code review tools</h3>
+      <ul>
+        <li>Mail submission and patch review via the web</li>
+        <li>Threaded, searchable mail archives</li>
+        <li>Tools for working with third party mailing lists</li>
+      </ul>
+    </div>
+    <div class="right">
+      <a href="https://lists.sr.ht/~emersion/mrsh-dev/%3C20180804160231.32283-1-sir%40cmpwn.com%3E" target="_blank">
+        <img src="lists.jpg" alt="Screenshot of lists.sr.ht" />
+      </a>
+    </div>
   </div>
-  <div class="right">
-    <a href="https://builds.sr.ht/~sircmpwn/job/26466" target="_blank">
-      <img src="builds.jpg" alt="Screenshot of builds.sr.ht" />
-    </a>
+  <div class="service-grid">
+    <div class="left">
+      <h3>Customizable ticket tracking</h3>
+      <ul>
+        <li>Customizable ticket flows to suit your project</li>
+        <li>Private bug reports and bug trackers for security issues</li>
+        <li>Fine-grained access controls</li>
+        <li>Separate personal and public custom ticket filters</li>
+      </ul>
+    </div>
+    <div class="right">
+      <a href="https://todo.sr.ht/~sircmpwn/todo.sr.ht" target="_blank">
+        <img src="todo.jpg" alt="Screenshot of todo.sr.ht" />
+      </a>
+    </div>
   </div>
-</div>
-<div class="service-grid">
-  <div class="left">
-    <h3>Mailing lists &amp; code review tools</h3>
-    <ul>
-      <li>Mail submission and patch review via the web</li>
-      <li>Threaded, searchable mail archives</li>
-      <li>Tools for working with third party mailing lists</li>
-    </ul>
+  <div class="service-grid">
+    <div class="left">
+      <h3>Task dispatching &amp; service integration</h3>
+      <ul>
+        <li>Automate tasks between various services</li>
+        <li>Integrate with third-party services like GitHub</li>
+        <li>Reduces the workload for maintainers and contributors</li>
+      </ul>
+    </div>
+    <div class="right">
+      <a href="https://man.sr.ht/dispatch.sr.ht" target="_blank">
+        <img src="dispatch.jpg" alt="Screenshot of dispatch.sr.ht" />
+      </a>
+    </div>
   </div>
-  <div class="right">
-    <a href="https://lists.sr.ht/~emersion/mrsh-dev/%3C20180804160231.32283-1-sir%40cmpwn.com%3E" target="_blank">
-      <img src="lists.jpg" alt="Screenshot of lists.sr.ht" />
-    </a>
+  <div class="service-grid">
+    <div class="left">
+      <h3>Markdown- and git-driven wikis</h3>
+      <ul>
+        <li>Use git to version control and manage your wiki</li>
+        <li>Use any organizational hierarchy you like, a flat wiki is not imposed</li>
+        <li>Hosts the detailed <a href="https://man.sr.ht">sourcehut manual</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <a href="https://man.sr.ht" target="_blank">
+        <img src="man.jpg" alt="Screenshot of man.sr.ht" />
+      </a>
+    </div>
   </div>
-</div>
-<div class="service-grid">
-  <div class="left">
-    <h3>Customizable ticket tracking</h3>
-    <ul>
-      <li>Customizable ticket flows to suit your project</li>
-      <li>Private bug reports and bug trackers for security issues</li>
-      <li>Fine-grained access controls</li>
-      <li>Separate personal and public custom ticket filters</li>
-    </ul>
+  <div class="service-grid">
+    <div class="left">
+      <h3>Sophisticated account management &amp; security</h3>
+      <ul>
+        <li>PGP encrypted and signed emails from each service</li>
+        <li>Two-factor authentication with TOTP</li>
+        <li>Detailed audit logs of account activity</li>
+        <li>Fine-grained third-party OAuth access controls</li>
+      </ul>
+    </div>
+    <div class="right">
+      <a href="meta.jpg" target="_blank">
+        <img src="meta.jpg" alt="Screenshot of meta.sr.ht" />
+      </a>
+    </div>
   </div>
-  <div class="right">
-    <a href="https://todo.sr.ht/~sircmpwn/todo.sr.ht" target="_blank">
-      <img src="todo.jpg" alt="Screenshot of todo.sr.ht" />
-    </a>
-  </div>
-</div>
-<div class="service-grid">
-  <div class="left">
-    <h3>Task dispatching &amp; service integration</h3>
-    <ul>
-      <li>Automate tasks between various services</li>
-      <li>Integrate with third-party services like GitHub</li>
-      <li>Reduces the workload for maintainers and contributors</li>
-    </ul>
-  </div>
-  <div class="right">
-    <a href="https://man.sr.ht/dispatch.sr.ht" target="_blank">
-      <img src="dispatch.jpg" alt="Screenshot of dispatch.sr.ht" />
-    </a>
-  </div>
-</div>
-<div class="service-grid">
-  <div class="left">
-    <h3>Markdown- and git-driven wikis</h3>
-    <ul>
-      <li>Use git to version control and manage your wiki</li>
-      <li>Use any organizational hierarchy you like, a flat wiki is not imposed</li>
-      <li>Hosts the detailed <a href="https://man.sr.ht">sourcehut manual</a></li>
-    </ul>
-  </div>
-  <div class="right">
-    <a href="https://man.sr.ht" target="_blank">
-      <img src="man.jpg" alt="Screenshot of man.sr.ht" />
-    </a>
-  </div>
-</div>
-<div class="service-grid">
-  <div class="left">
-    <h3>Sophisticated account management &amp; security</h3>
-    <ul>
-      <li>PGP encrypted and signed emails from each service</li>
-      <li>Two-factor authentication with TOTP</li>
-      <li>Detailed audit logs of account activity</li>
-      <li>Fine-grained third-party OAuth access controls</li>
-    </ul>
-  </div>
-  <div class="right">
-    <a href="meta.jpg" target="_blank">
-      <img src="meta.jpg" alt="Screenshot of meta.sr.ht" />
-    </a>
-  </div>
-</div>
-<hr />
-<form
-  style="max-width: 500px; margin: 1rem auto"
-  method="POST"
-  action="https://meta.sr.ht/register"
->
-  <p>Sign up here to get started!</p>
-  <div class="form-group">
-    <label for="username">Username</label>
-    <input type="text" name="username" id="username" />
-  </div>
-  <div class="form-group">
-    <label for="email">Email address</label>
-    <input type="email" name="email" id="email" />
-  </div>
-  <div class="form-group">
-    <label for="password">Password</label>
-    <input type="password" name="password" id="password" />
-  </div>
-  <div class="pull-right">
-    <button class="btn btn-primary" type="submit">
-      Register for sr.ht
-      <span class="icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"/></svg>
-      </span>
-    </button>
-  </div>
-  <div style="clear: both"></div>
-</form>
+</section>

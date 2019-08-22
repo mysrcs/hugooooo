@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    {{ partial "head.html" }}
+    <title>{{.Title}}</title>
+  </head>
+  <body>
+    {{ partial "nav.html" }}
+    <main>
+      {{ range first 1 .Data.Pages }}
+      <header class="inline-header">
+        <div class="heading">
+          <div class="info">
+            <div class="content">
+              {{.Date.Format "January 2, 2006"}}
+              by {{.Params.author}}
+            </div>
+          </div>
+          <div class="content">
+            <h1>
+              <a href="{{.Permalink}}">
+                <small>
+                  From the blog
+                  <span class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"/></svg>
+                  </span>
+                </small>
+                <br />
+                {{.Title}}
+              </a>
+            </h1>
+          </div>
+        </div>
+      </header>
+      {{ end }}
+      <section class="infobox">
+        <div class="box">
+          <div class="content index-grid">
+            <div class="left">
+                <p>
+                  <strong>Welcome to sourcehut!</strong> This suite of open source
+                  tools is the software development platform you've been waiting for.
+                  We've taken the wisdom of the most successful open-source
+                  communities and turned it into a platform of efficient engineering
+                  tools.
+                </p>
+              <ul>
+                <li>Composable Unix-style mini-services</li>
+                <li>Powerful APIs and webhooks</li>
+                <li>Secure, reliable, and safe</li>
+                <li>Absolutely no tracking or advertising</li>
+                <li>All features work without JavaScript</li>
+                <li>
+                  <a href="https://git.sr.ht/~sircmpwn/?search=sr.ht">
+                    100% free and open source software
+                  </a>
+                </li>
+              </ul>
+              <p>
+                Sourcehut is currently available as a public alpha.
+                <a href="/alpha-details">
+                  What should I expect?
+                </a>
+              </p>
+            </div>
+            <form method="POST" action="https://meta.sr.ht/register" class="right">
+              <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" name="email" id="email" />
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" />
+              </div>
+              <button class="btn btn-primary" type="submit">
+                Register for sr.ht
+                <span class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"/></svg>
+                </span>
+              </button>
+              or <a href="https://meta.sr.ht/login">
+                log in
+                <span class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"/></svg>
+                </span>
+              </a>
+            </form>
+          </div>
+        </div>
+      </section>
+      {{.Content}}
+    </main>
+    {{ partial "footer.html" }}
+  </body>
+</html>
