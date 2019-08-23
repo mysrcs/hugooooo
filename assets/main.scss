@@ -128,6 +128,8 @@ nav {
   .brand {
     text-decoration: none;
     font-size: 1.25rem;
+    position: relative;
+    top: 1px;
   }
 
   @media(max-width: 960px) {
