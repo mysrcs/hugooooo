@@ -34,6 +34,11 @@ When the beta begins, unpaid accounts will be limited. Affected users will be
 emailed 60 days in advance of the transition. Of course, users hosting their own
 instance of Sourcehut on their own servers are unaffected by this.
 
+Additionally, unpaid accounts will still be able to contribute to projects on
+the platform, and in fact you can interact with many services via email without
+having an account at all. Payment will only be required to own resources, submit
+build jobs, and so on.
+
 ## Alpha caveats
 
 - Some services are not complete and some features may be conspicuously absent.
