@@ -7,7 +7,7 @@
   <body>
     {{ partial "nav.html" }}
     <main>
-      {{ range first 1 .Data.Pages }}
+      {{ range first 1 (where .Site.RegularPages "Section" "blog") }}
       <header class="inline-header">
         <div class="heading">
           <div class="info">
