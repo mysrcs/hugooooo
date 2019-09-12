@@ -16,9 +16,9 @@ Some of this software is foundational stuff, and their improvements trickle down
 to the entire BSD ecosystem. Let's highlight a few great projects that take
 advantage of our BSD offerings.
 
-# Programming langauges: Janet, Nim, Zig
+# Programming languages: Janet, Nim, Zig
 
-Several programming langauges use Sourcehut to run BSD testing. The
+Several programming languages use Sourcehut to run BSD testing. The
 [Janet](https://janet-lang.org/) language uses Sourcehut to test both
 [FreeBSD](https://builds.sr.ht/~bakpakin/janet/.freebsd.yaml) and
 [OpenBSD](https://builds.sr.ht/~bakpakin/janet/.openbsd.yaml), and fast - each
