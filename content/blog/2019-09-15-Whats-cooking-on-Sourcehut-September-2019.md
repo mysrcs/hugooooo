@@ -14,7 +14,7 @@ have any questions or feedback, I can be reached at
 who have paid for their alpha accounts, which for the first time represents more
 than 10% of all registered users.
 
-[bitbucket]: https://sourcehut.org/blog/2019-08-15-whats-cooking-on-sourcehut-august-2019/
+[bitbucket]: https://sourcehut.org/blog/2019-08-21-sourcehut-welcomes-bitbucket-refugees/
 
 ## General news
 
