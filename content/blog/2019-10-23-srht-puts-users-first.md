@@ -87,10 +87,10 @@ with extenuating circumstances[^2].
 Thanks to this incentive model, SourceHut can easily skip anti-features:
 
 - We don't send your data to third parties[^3]
-- No tracking whatsoever
+- We have no tracking whatsoever
 - Everything works without JavaScript anyway
-- No opt-out marketing emails
-- No advertisements in the UI
+- We don't use opt-out marketing emails
+- There are no advertisements in the UI
 - The hosted code is the same as the open source code
 - No one can strong-arm us into taking on unethical business partners
 
