@@ -91,6 +91,7 @@ Thanks to this incentive model, SourceHut can easily skip anti-features:
 - Everything works without JavaScript anyway
 - No opt-out marketing emails
 - No advertisements in the UI
+- The hosted code is the same as the open source code
 - No one can strong-arm us into taking on unethical business partners
 
 Since we get all of our income directly from the users, we don't have to worry
