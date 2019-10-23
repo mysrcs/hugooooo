@@ -77,7 +77,7 @@ the project and the end of the first year of public alpha. Today, it's a
 profitable business and we've just brought on [our first full-time sponsored
 free software developer][emersion post]. Some people have complained that paying
 for their account on SourceHut is a deal breaker. But, consider that the
-incentives that this approach creates holds us accountable *only* to the users.
+incentives that this approach creates hold us accountable *only* to the users.
 When you let venture capitalists foot your bill, you also give them power over
 you. And in any case, free SourceHut accounts are available by request to anyone
 with extenuating circumstances[^2].
