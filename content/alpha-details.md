@@ -5,7 +5,7 @@ title: What's the scope of Sourcehut's alpha?
 # Sourcehut's public alpha stage
 
 Sourcehut is considered alpha quality today. However, the service is rapidly
-advancing towards stability, and is may already be suitable for your needs.
+advancing towards stability, and it may already be suitable for your needs.
 
 ## Alpha guarantees
 
