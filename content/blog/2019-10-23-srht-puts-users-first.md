@@ -98,6 +98,16 @@ Since we get all of our income directly from the users, we don't have to worry
 about finding other ways to monetize you. To me that seems like a pretty good
 business model, even if it's never going to be a "unicorn".
 
+---
+
+> **UPDATE**: Thanks for the feedback. There were many more concerns than we
+> expected. We’re going to process the feedback and rethink our plan. We will not
+> activate product usage tracking on GitLab.com or GitLab self-managed for now.
+> We'll make sure to communicate in advance on our blog when we do have a new
+> plan.
+
+via [gitlab.com/www-gitlab-com!33289](https://gitlab.com/gitlab-com/www-gitlab-com/merge_requests/33289/diffs)
+
 [^1]: Hi, I'm Drew DeVault, founder of SourceHut and your friendly neighborhood sysadmin.
 [^2]: Technically, you don't have to pay at all during the alpha.
 [^3]: The exception is your billing information, but we don't have much of a choice about that.
