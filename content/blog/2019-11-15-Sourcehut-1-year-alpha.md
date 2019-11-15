@@ -369,7 +369,7 @@ soon as well.
 
 Some mundane image updates:
 
-- freebsd/12.x builds are now using FreeBSD 12.2
+- freebsd/12.x builds are now using FreeBSD 12.1
 - Fedora images have been improved and updated
 - NixOS images have been improved and updated
 
