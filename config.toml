@@ -1,2 +1,3 @@
 baseURL = "https://sourcehut.org/"
 title = "Sourcehut"
+pygmentsUseClasses = true
