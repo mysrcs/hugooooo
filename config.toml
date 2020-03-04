@@ -1,3 +1,6 @@
 baseURL = "https://sourcehut.org/"
 title = "Sourcehut"
 pygmentsUseClasses = true
+
+[markup.goldmark.renderer]
+unsafe= true
