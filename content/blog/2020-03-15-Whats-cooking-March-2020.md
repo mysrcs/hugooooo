@@ -67,7 +67,7 @@ Following up on our recent git.sr.ht change to allow users to attach binary
 releases to git tags, I've implemented build artifacts for our CI as well. By
 adding a list of artifacts to your build manifest, you can have the files
 extracted from the build VM after successful builds and made available for
-download on the web or inspection via the API. Artifacts are kept for 30 days,
+download on the web or inspection via the API. Artifacts are kept for 90 days,
 but in the future I would like to let you indicate that certain artifacts should
 be kept permanently. [Docs are available
 here](https://man.sr.ht/builds.sr.ht/manifest.md#artifacts).
