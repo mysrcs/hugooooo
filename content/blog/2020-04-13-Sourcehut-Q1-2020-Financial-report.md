@@ -52,7 +52,7 @@ down as follows:
 
 Yearly payments have an outsized effect on the total cash flow, and this
 accounts for the reduction in income for Q4 2019 → Q1 2020. These figures are in
-line with our expectations for Q1. In Q2, 1,377 new users registered accounts,
+line with our expectations for Q1. In Q1, 1,377 new users registered accounts,
 of which 156 (11%) have paid for their account. As of the end of Q1, there were
 13,418 registered users in total, of which 1,553 (12%) have paid subscriptions.
 
