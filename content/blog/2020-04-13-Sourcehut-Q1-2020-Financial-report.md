@@ -1,6 +1,6 @@
 ---
 title: Sourcehut Q1 2020 Financial report
-date: 2020-04-20
+date: 2020-04-13
 author: Drew DeVault
 ---
 
