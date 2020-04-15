@@ -406,6 +406,19 @@ footer, .infobox {
     align-self: flex-end;
     padding-bottom: 1rem;
   }
+
+  .footer-links {
+    margin: 1rem 0;
+    text-align: center;
+
+    & > * {
+      margin-right: 2rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
 }
 
 .stub {
