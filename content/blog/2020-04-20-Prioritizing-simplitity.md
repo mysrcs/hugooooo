@@ -79,7 +79,7 @@ dollars. Together, the two companies have over 2,000 employees. [SourceHut made
 How do we deliver on this level of reliability and performance compared to these
 giants? The answer is a fundamental difference in our approach and engineering
 ethos. I hope that [forgeperf.org](https://forgeperf.org) is a good start for
-pushing our industry to mount a serious attack the eternal problems of high
+pushing our industry to mount a serious attack on the eternal problems of high
 performance and reliability once more.
 
 [financial report]: /blog/2020-04-13-sourcehut-q1-2020-financial-report
