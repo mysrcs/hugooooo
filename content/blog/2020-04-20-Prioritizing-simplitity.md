@@ -1,5 +1,5 @@
 ---
-title: Prioritizing simplicity delivers on performance and reliability
+title: Prioritizing simplicity improves performance and reliability
 date: 2020-04-20
 author: Drew DeVault
 ---
