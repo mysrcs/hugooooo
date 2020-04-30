@@ -143,8 +143,8 @@ nav {
     }
   }
 
-  @media(max-width: 960px) {
-    a.btn {
+  @media(max-width: 720px) {
+    .hidden-small {
       display: none;
     }
   }
