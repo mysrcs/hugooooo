@@ -20,8 +20,8 @@ thing and do it well". These tools are things like git hosting, bug tracking,
 mailing lists, CI, and so on. This allows you to use them independently and
 compose them however you please, which maps well onto the reality of how many
 projects are organized. Compare this to platforms like GitHub, GitLab, Gitea,
-and so on, resources like bug trackers and pull requests map 1:1 to a git
-repository.
+and so on, where resources like bug trackers and pull requests map 1:1 to a git
+repository, even when it doesn't make sense.
 
 In reality, many projects have dozens of git repos but would prefer to receive
 bug reports in one place, for example. There are many ways projects are
