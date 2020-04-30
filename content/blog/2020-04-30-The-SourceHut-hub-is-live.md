@@ -7,8 +7,9 @@ author: Drew DeVault
 I'm happy to announce that the SourceHut project hub is now available for
 general use! This is one of the most important developments in the progress of
 the SourceHut alpha thus far. If you want to see how it works interactively, try
-checking out the [SourceHut project][sourcehut hub], or [add your own
-projects](https://sr.ht). For a more wordy introduction, read on.
+checking out the [SourceHut project][sourcehut hub], [add your own
+projects](https://sr.ht), or [browse the public project
+index](https://sr.ht/projects). For a more wordy introduction, read on.
 
 [sourcehut hub]: https://sr.ht/~sircmpwn/sourcehut
 ![Screenshot of the public project index on the SourceHut project hub](https://l.sr.ht/i0Uj.png)
