@@ -128,10 +128,19 @@ nav {
   }
 
   .brand {
-    text-decoration: none;
+    a {
+      text-decoration: none;
+      color: $black !important;
+      margin-left: 0 !important;
+    }
+
     font-size: 1.25rem;
     position: relative;
     top: 1px;
+
+    .icon {
+      width: 1.2rem;
+    }
   }
 
   @media(max-width: 960px) {
@@ -139,10 +148,6 @@ nav {
       display: none;
     }
   }
-}
-
-.brand {
-  color: $danger;
 }
 
 .icon {
