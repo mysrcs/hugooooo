@@ -33,15 +33,15 @@ to your project actually want to browse the source code &mdash; many others are
 looking for documentation, bug reports, support channels, and so on; and
 frontloading the source code can be intimidating.
 
-The ability to freely compose resources on SourceHut to suit your projects needs
-addresses this. The primary disadvantage of our approach has been difficulty in
-finding out what resources belong to which projects, and getting around between
-them. The new project hub addresses this with a single "hub" for your project,
-with a more general introduction to the project and links to the each of the
-tools your project is using. You can have zero, one, or any number of git or
-Mercurial repos, mailing lists, and bug trackers, in any combination which is
-useful for your needs, and the project hub will organize them for you. It
-streamlines the workflow for new projects and will make it easier for new
+The ability to freely compose resources on SourceHut to suit your project's
+needs addresses this. The primary disadvantage of our approach has been
+difficulty in finding out what resources belong to which projects, and getting
+around between them. The new project hub addresses this with a single "hub" for
+your project, with a more general introduction to the project and links to the
+each of the tools your project is using. You can have zero, one, or any number
+of git or Mercurial repos, mailing lists, and bug trackers, in any combination
+which is useful for your needs, and the project hub will organize them for you.
+It streamlines the workflow for new projects and will make it easier for new
 users to figure out how to get started on SourceHut.
 
 The project hub also solves a problem which has long been a matter of interest
