@@ -44,10 +44,6 @@ build jobs, and so on.
 - Some services are not complete and some features may be conspicuously absent.
 - Documentation may be incomplete in some respects.
 - Not all features available on the web are available through the API.
-- Tools for bringing our services together are under development. Navigation
-  between different resources underneath a single project may be difficult, such
-  as finding the corresponding bug tracker from a git repo. Workarounds, such as
-  links in `README.md` files, are suggested for the time being.
 
 ## Goals for the beta and beyond
 
@@ -62,6 +58,5 @@ Notable features which are under development in the alpha, to be completed
 before the beta begins, include:
 
 - Organizing users into groups and organizations
-- A central project hub for connecting many resources under a single project
 - A web-based workflow for submitting and reviewing patches
 - Data freedom, including importing and exporting all of your account data
