@@ -29,7 +29,7 @@ tasks:
 - build: |
     cd /
     . /sys/lib/rootstubs
-    cd /src
+    cd /sys/src
     mk nuke
     mk all
 ```
