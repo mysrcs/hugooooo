@@ -28,7 +28,7 @@ image: 9front
 tasks:
 - build: |
     cd /
-    . /sys/lib/rootstubs
+    . /sys/lib/rootstub
     cd /sys/src
     mk nuke
     mk all
