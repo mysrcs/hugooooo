@@ -6,7 +6,7 @@ author: Drew DeVault
 
 [PeerTube][peertube] is an excellent project which aims to create an open and
 decentralized video "tube" for hosting video content with distributed governance
-and community-driven development. Chochobuzz, with the help of dozens of
+and community-driven development. Chocobozzz, with the help of dozens of
 contributors, has put in the hard engineering work to build a great platform,
 and now we want to see it filled with content.
 
