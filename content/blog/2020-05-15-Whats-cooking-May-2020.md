@@ -27,7 +27,7 @@ know more about the project hub and the future plans for it, read up on the
 [original announcement][2].
 
 [0]: https://sr.ht/projects
-[1]: https://sr.ht/create
+[1]: https://sr.ht/projects/create
 [2]: https://sourcehut.org/blog/2020-04-30-the-sourcehut-hub-is-live/
 
 ## git.sr.ht
