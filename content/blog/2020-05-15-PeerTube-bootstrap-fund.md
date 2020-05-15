@@ -59,7 +59,7 @@ The following conditions apply:
 - You must not already be regularly publishing content on another platform.
   We're looking to fund new content creators, not existing ones.[^1]
 - You can only upload videos to PeerTube - not to YouTube or anywhere else.
-- Your videos must be use a [Creative Commons][cc] license, like
+- Your videos must use a [Creative Commons][cc] license, like
   [CC-BY-NC-SA][cc-by-nc-sa].
 - We expect you to make at least 5 videos. If you decide video creation isn't
   for you after that, we'll take the equipment back and you'll be off the hook.
