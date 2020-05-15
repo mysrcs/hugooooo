@@ -13,7 +13,7 @@ and now we want to see it filled with content.
 [peertube]: https://joinpeertube.org/en/
 
 <img class="inline-img"
-  src="https://joinpeertube.org/img/peertube-federation-multiplicity.jpg"
+  src="https://l.sr.ht/bLsu.jpg"
   alt="A graph of PeerTube instances each connected to one another" />
 
 <style>
