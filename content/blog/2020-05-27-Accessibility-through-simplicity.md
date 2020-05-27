@@ -90,7 +90,7 @@ But, it wouldn't do to forget the users with screen readers in any case. Some
 general advice for such users would be to make good use of semantic HTML, such
 as `<main>`, `<article>`, `<section>`, `<nav>`, and so on; along with other
 elements like `<p>` to mark paragraphs, `<ul>` and `<ol>` as appropriate to mark
-lists of things, `<quote>` for, well, quotes, and so on. Screen readers can
+lists of things, `<blockquote>` for, well, quotes, and so on. Screen readers can
 interpret these to understand the layout of your page better and provide
 contextual clues to the user.
 
