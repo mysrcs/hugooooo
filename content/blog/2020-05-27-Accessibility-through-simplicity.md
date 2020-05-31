@@ -129,6 +129,7 @@ website might eschew `npm install` in favor of this:
 
 ```
 <!doctype html>
+<html lang="en">
 <meta charset="utf-8" />
 <title>My cool website!</title>
 <main>
