@@ -95,7 +95,7 @@ The GraphQL services are completely standalone, and it is possible to deploy
 them independently of the web application. With these, you can deploy a
 SourceHut instance with no frontend at all, using the GraphQL APIs exclusively.
 Today, the Python backends to the web services communicate directly with
-PostgreSQL via SQLAlchemy, but it is my intention to built out experimental
+PostgreSQL via SQLAlchemy, but it is my intention to build out experimental
 replacement backends which are routed through GraphQL instead. This way, the
 much more performant and robust GraphQL backends become the single source of
 truth for all information in SourceHut. This could substantially increase my
