@@ -10,6 +10,9 @@ and community-driven development. Chocobozzz, with the help of dozens of
 contributors, has put in the hard engineering work to build a great platform,
 and now we want to see it filled with content.
 
+**Notice**: the first round of applicants has been processed. Check back in
+later - we may ask for more applications in the future.
+
 [peertube]: https://joinpeertube.org/en/
 
 <img class="inline-img"
