@@ -49,7 +49,8 @@ and writing a little bit of YAML:
 
 This is one of the few times where I take advantage of some of YAML's more
 advanced features: `&cpu_gt_75pct` and `&brief` are a kind of macro, which
-allows me to easily derivative alarms, like these ones for network activity:
+allows me to easily create derivative alarms, like these ones for network
+activity:
 
 ```yaml
 - alert: High network activity
