@@ -102,11 +102,11 @@ see some automated emails which are not related to alarms &mdash; I'll get to
 these in a moment. We also have "interesting" alarms, which are routed to IRC,
 along with the urgent and important alarms, using
 [alertmanager-irc-relay][am-irc-relay]. This IRC channel is also public:
-[#sr.ht-ops on irc.freenode.net][#sr.ht-ops].
+[#sr.ht.ops on irc.freenode.net][#sr.ht.ops].
 
 [sr.ht-ops]: https://lists.sr.ht/~sircmpwn/sr.ht-ops
 [am-irc-relay]: https://github.com/google/alertmanager-irc-relay
-[#sr.ht-ops]: http://webchat.freenode.net/?channels=%23sr.ht-ops&uio=d4
+[#sr.ht.ops]: http://webchat.freenode.net/?channels=%23sr.ht.ops&uio=d4
 
 Prometheus normally works by pulling stats off of daemons, but we also want to
 monitor ephemeral or one-off tasks. For this purpose, we have also set up
