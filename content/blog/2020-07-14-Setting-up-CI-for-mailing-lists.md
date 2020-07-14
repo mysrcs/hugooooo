@@ -1,5 +1,5 @@
 ---
-title: Setting up continuous integration (CI) for your mailing list
+title: SourceHut adds continuous integration for mailing lists
 date: 2020-07-14
 author: Drew DeVault
 ---
