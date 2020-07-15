@@ -23,7 +23,7 @@ finalized.
 
 [migration plan]: https://lists.sr.ht/~sircmpwn/sr.ht-dev/%3CC46HQADCD895.383VE5JFF0N24%40homura%3E
 
-We have also migrate all services to a new markdown engine based on
+We have also migrated all services to a new markdown engine based on
 [Mistletoe](https://github.com/miyuchina/mistletoe). If you encounter any
 strange Markdown-related problems, please
 [file a ticket](https://todo.sr.ht/~sircmpwn/sr.ht) and mention ~araspik. Thank
