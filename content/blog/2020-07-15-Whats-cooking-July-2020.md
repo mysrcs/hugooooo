@@ -43,7 +43,7 @@ the long-term goal of high availability.
 The most exciting development in this round of updates is likely to be the
 integration between lists.sr.ht and builds.sr.ht to bring continuous integration
 to mailing lists on SourceHut. You may have seen the announcement on the blog
-yesterday &mash; give it a read. The tl;dr is that if you [create a
+yesterday &mdash; give it a read. The tl;dr is that if you [create a
 project][hub] on the project hub, and add a mailing list and git repositories,
 it'll automatically submit any patches sent to your mailing list using the
 `.build.yml` (or `.build/*.yml`) from the repository. The subject prefix (for
