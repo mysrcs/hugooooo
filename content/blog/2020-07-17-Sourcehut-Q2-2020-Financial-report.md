@@ -86,5 +86,5 @@ strong enough to consider a second campaign for the time being; our other
 marketing approaches are more effective.
 
 In Q3, we plan on spending around $4K-$5K on the installation of a new server to
-handle hg.sr.ht growth, as well as a fill few other roles, mainly for high
+handle hg.sr.ht growth, as well as filling a few other roles, mainly for high
 availability. Otherwise we have no unusual expenses planned.
