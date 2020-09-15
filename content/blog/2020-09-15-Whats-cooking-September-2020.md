@@ -36,7 +36,7 @@ The big-ticket blockers are:
 - Web-based code review for lists.sr.ht
 - More hub.sr.ht cross-service integrations
 
-Next month marks the end of the second year of the beta, and I'll prepare an
+Next month marks the end of the second year of the alpha, and I'll prepare an
 extended status update which goes into detail on what remains and how we're
 going to complete the beta.
 
