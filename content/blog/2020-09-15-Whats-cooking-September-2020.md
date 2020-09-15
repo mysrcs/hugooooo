@@ -90,5 +90,5 @@ You can now edit comments on tickets.
 
 ## man.sr.ht
 
-Adding sorely overdue feature, gildarts implemented a user index page for
+Adding a sorely overdue feature, gildarts implemented a user index page for
 man.sr.ht, where you can list the wikis on your account. Thanks gildarts!
