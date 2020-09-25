@@ -59,10 +59,10 @@ already be suitable for your use. Our documentation is also incomplete.
 Some notable features which are still under development in the alpha period
 include:
 
-- First-class support for user groups/organizations.
-- A web-based workflow for submitting and reviewing patches on lists.sr.ht.
-- Full data autonomy, including account data import/export data, account
-  deletion, and username changes.
+- First-class support for user groups/organizations
+- A web-based workflow for submitting and reviewing patches on lists.sr.ht
+- Full data autonomy, including account data import & export, account
+  deletion, and username changes
 
 The "beta" label is used on our
 [bug trackers](https://todo.sr.ht/trackers/~sircmpwn?search=sr.ht) to indicate
