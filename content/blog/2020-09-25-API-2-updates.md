@@ -1,5 +1,5 @@
 ---
-title: API 2.0 dev log
+title: SourceHut API 2.0 dev log
 date: 2020-09-25
 author: Drew DeVault
 ---
