@@ -24,7 +24,7 @@ midlayer-oriented) would address our use-case better.
 [go-celery]: https://github.com/gocelery/gocelery
 
 So, I set out to design us a bespoke task queueing system for our Go daemons.
-Some of the goals where:
+Some of the goals were:
 
 - Ability to manage work in Goroutines instead of separate daemons[^1]
 - Easy handling of re-attempts with an exponential backoff
