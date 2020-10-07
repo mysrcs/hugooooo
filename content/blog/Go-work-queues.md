@@ -187,7 +187,7 @@ That's it! Some future improvements along these lines will include:
 - Rigging this up with OpenRC so that our service manager can oversee these
   kinds of restarts
 - More sophisticated coordination between the old and new server processes to
-  reduce the window during which connections might be dropped
+  reduce the window during which connections might be dropped[^2]
 - Dumping the queue state on the second SIGINT so that the admin can review and
   possibly re-queue some of the tasks later
 - Moving the queue into a secondary process or a remote machine, through some
@@ -198,3 +198,5 @@ That's it! Some future improvements along these lines will include:
 Stay tuned.
 
 [View the "dowork" project on SourceHut →](https://sr.ht/~sircmpwn/dowork/)
+
+[^2]: Update 2020-10-07: We've successfully tested using [SO_REUSEPORT](https://github.com/kavu/go_reuseport) to allow the replacement daemon to start up before the defunct daemon starts shutting down, which completely eliminates the window during which connections could be dropped. We still need to work on coaxing OpenRC into handling this service lifecycle; we'll likely write a follow-up post about this.
