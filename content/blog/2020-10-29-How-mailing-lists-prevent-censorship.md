@@ -45,3 +45,15 @@ tool for censorship resistance. Putting all of your eggs into a basket
 controlled by a single corporate entity, who will be coerced by bullies and bad
 laws, is not a strategy for success. Times like these remind us why open source
 projects need to use open source infrastructure, built on open standards.
+
+*Haven't used email with git before? Here's what it's like:*
+
+<iframe
+  width="560"
+  height="315"
+  sandbox="allow-same-origin allow-scripts allow-popups"
+  src="https://spacepub.space/videos/embed/1619c000-7c44-4330-9177-29a0854bd759"
+  frameborder="0" allowfullscreen></iframe>
+
+*Check out [git-send-email.io](https://git-send-email.io) to try an interactive
+tutorial.*
