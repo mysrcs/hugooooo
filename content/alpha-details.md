@@ -6,8 +6,8 @@ title: What's the scope of Sourcehut's alpha?
 
 We aim for a higher standard of quality than most software & services working in
 this domain. What we consider an alpha passes for a production-ready system to
-some. We provide the following guarantees and caveats reagrding the
-production-quality of the SourceHut hosted services.
+some. We provide the following guarantees and caveats regarding the production
+quality of the SourceHut hosted services.
 
 ## Alpha guarantees
 
