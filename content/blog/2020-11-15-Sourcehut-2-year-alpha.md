@@ -1,6 +1,6 @@
 ---
 title: SourceHut's second year in alpha
-date: 2020-11-14
+date: 2020-11-15
 author: Drew DeVault
 ---
 
@@ -19,10 +19,10 @@ and I was wrong. However, we do have a well-defined, finite list of action items
 to be completed before we can kick off the beta. We hit a lot of important
 development milestones this year, and we'll put the cherry on top in 2021.
 
-This month's public Mumble conference will take place tomorrow at 17:00 UTC, in
-the sourcehut room on voice.mnus.de, port 64738. Please join us to celebrate our
-second year, and ask any questions or provide any feedback that you might have
-about sourcehut.
+This month's public Mumble conference will take place tomorrow (the 16th) at
+17:00 UTC, in the sourcehut room on voice.mnus.de, port 64738. Please join us to
+celebrate our second year, and ask any questions or provide any feedback that
+you might have about sourcehut.
 
 Let's take a moment celebrate our accomplishments in 2020, and lay out our plans
 for 2021.
