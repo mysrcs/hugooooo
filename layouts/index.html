@@ -47,9 +47,10 @@
               <ul>
                 <li>Absolutely no tracking or advertising</li>
                 <li>All features work without JavaScript</li>
+                <li>Many features work without an <em>account</em></li>
                 <li>
                   The <a href="https://forgeperf.org" rel="noopener"
-                  >fastest, most lightweight</a> software forge
+                  >fastest &amp; lightest</a> software forge
                 </li>
                 <li>
                   <a href="https://sr.ht/~sircmpwn/sourcehut" rel="noopener">
@@ -91,6 +92,20 @@
               </a>
             </form>
           </div>
+        </div>
+      </section>
+      <section class="projects">
+        <div class="content">
+          "Small internet" protocols? The Plan 9 rennisance? Esoteric
+          programming languages for music creation, and novel smartphone
+          operating systems? These projects and more are waiting to be found on
+          the sourcehut project index.
+          <a href="https://sr.ht/projects" class="btn btn-default">
+            Browse projects
+            <span class="icon">
+              {{ (resources.Get "caret-right.svg").Content | safeHTML }}
+            </span>
+          </a>
         </div>
       </section>
       {{.Content}}

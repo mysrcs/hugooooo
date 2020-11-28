@@ -1,3 +1,5 @@
+@import "hl";
+
 /* gaze ye upon my spaghetti, and despair */
 $black: #212529;
 $primary: #007bff;
@@ -40,10 +42,13 @@ main {
   flex-grow: 1;
 }
 
+.service-grid {
+  margin-top: 1rem;
+}
+
 .index-grid, .service-grid {
   display: grid;
   width: 100%;
-  margin-bottom: 1rem;
   grid-template-columns: 4fr 2fr;
   grid-gap: 1rem;
 
@@ -385,8 +390,6 @@ header {
 }
 
 footer, .infobox {
-  margin: 0 0 1rem 0;
-
   p:first-child {
     margin-top: 0;
   }
@@ -395,10 +398,6 @@ footer, .infobox {
     background: #f4f4f4;
     padding-top: 1rem;
     height: 100%;
-  }
-
-  .content {
-    margin-bottom: 1rem;
   }
 
   strong, h4 {
@@ -477,4 +476,19 @@ details {
   }
 }
 
-@import "hl";
+.projects {
+  padding-top: 1rem;
+
+  .content {
+    background: #f4f4f4;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 1rem;
+    justify-items: center;
+    align-items: center;
+
+    & > *:not(:last-child) {
+      margin-right: 0.5rem;
+    }
+  }
+}
