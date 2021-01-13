@@ -14,7 +14,7 @@ compasses.
 I learned today of an incident at GitHub, one of our competitors.[^1] A Jewish
 employee was fired in apparent retaliation for commenting "stay safe homies,
 Nazis are about" in one of the company's Slack channels. This occurred during an
-insurrection at the US Capitol by a radical right-wing, racially-motivated
+insurrection at the US Capitol by radical right-wing, racially-motivated
 terrorists, at least some of whom were wearing Nazi propaganda, for the purpose
 of uprooting the democratic process to instill a fascist demagogue. The
 seditionist riot claimed the lives of at least six people.
