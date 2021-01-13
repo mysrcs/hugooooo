@@ -37,13 +37,13 @@ incompatible with our own values."
 This level of moral absenteeism within the industry SourceHut shares astonishes
 me. I wish that there was no need for me to make the following explicit:
 
-SourceHut officially condemns white nationalism, Donald Trump, and the
-supporters of both. We officially affirm that we value human rights, the
-democratic process, and the judicial process. We assert the rights and value of
-all people, of all nationalities, races, ethnicities, sexual preferences, gender
-identities, disabilities, religions, and economic classes.  We will defend
-anyone who would speak up in support of these ideals. We will not do business
-with anyone who does not recognize and embody these truths.
+These are the official policies of SourceHut: we condemn white nationalism,
+Donald Trump, and the supporters of both. We affirm that we value human rights,
+the democratic process, and the judicial process. We assert the rights and value
+of all people, of all nationalities, races, ethnicities, sexual preferences,
+gender identities, disabilities, religions, and economic classes. We will
+defend anyone who would speak up in support of these ideals. We will not do
+business with anyone who does not recognize and embody these truths.
 
 We think it's repugnant that our peers don't demonstrate the same values. We
 think that you, the customer, should reward businesses that commit to upholding
