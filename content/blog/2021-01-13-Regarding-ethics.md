@@ -35,7 +35,8 @@ incompatible with our own values."
 [^3]: Source: [The Register](https://www.theregister.com/2019/10/16/gitlab_employees_gagged/)
 
 This level of moral absenteeism within the industry SourceHut shares astonishes
-me. I wish that there was no need for me to make the following explicit:
+me. I wish that there was no need for me to make the following statements
+explicitly.
 
 These are the official policies of SourceHut: we condemn white nationalism,
 Donald Trump, and the supporters of both. We affirm that we value human rights,
