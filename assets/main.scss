@@ -44,6 +44,18 @@ main {
 
 .service-grid {
   margin-top: 1rem;
+
+  h3 {
+    font-weight: bold;
+    color: black;
+  }
+
+  blockquote {
+    border-left: unset;
+    background-color: unset;
+    font-style: italic;
+    padding-left: 2.5rem;
+  }
 }
 
 .index-grid, .service-grid {
