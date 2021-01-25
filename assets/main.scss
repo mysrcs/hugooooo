@@ -43,7 +43,7 @@ main {
 }
 
 .service-grid {
-  margin-top: 1rem;
+  margin-top: 2rem;
 
   h3 {
     font-weight: bold;
@@ -342,9 +342,9 @@ h4 {
 
 header {
   margin-top: 0.5rem;
-  min-height: 6rem;
+  min-height: auto;
   display: flex;
-  padding-top: 1rem;
+  padding: 0.5rem 0;
   flex-direction: row;
   align-items: flex-end;
   background: darken($primary, 10);
@@ -358,7 +358,7 @@ header {
 
   h1 {
     padding: 0.25rem 1rem;
-    margin: 0 -2rem 0.5rem -1rem;
+    margin: 0 -1rem 0.5rem -1rem;
     background: rgba(255, 255, 255, 1.0);
     border: 1px solid rgba(0, 0, 0, 0.2);
 
@@ -381,10 +381,6 @@ header {
   }
 
   &.inline-header {
-    min-height: auto;
-    padding: 0.5rem 0;
-    margin-top: 0.5rem;
-
     h1 {
       font-size: 1.2rem;
     }
@@ -401,6 +397,10 @@ header {
 	font-size: 0.9rem;
 }
 
+footer {
+  margin-top: 2rem;
+}
+
 footer, .infobox {
   p:first-child {
     margin-top: 0;
@@ -408,8 +408,7 @@ footer, .infobox {
 
   .box {
     background: #f4f4f4;
-    padding-top: 1rem;
-    height: 100%;
+    padding: 2rem 0;
   }
 
   strong, h4 {
@@ -420,7 +419,6 @@ footer, .infobox {
     max-width: 480px;
     margin: 0;
     align-self: flex-end;
-    padding-bottom: 1rem;
   }
 
   .footer-links {
@@ -489,7 +487,7 @@ details {
 }
 
 .projects {
-  padding-top: 1rem;
+  padding-top: 2rem;
 
   .content {
     background: #f4f4f4;
