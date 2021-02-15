@@ -11,10 +11,10 @@ learn the ropes. This month's "what's cooking" is somewhat deficit in
 interesting user-facing developments, but I will dutifully report our progress
 nonetheless.
 
-Our next public Mumble conference will be held at 16:00 UTC, on voice.mnus.de,
-port 64738, in the sourcehut room. Feel free to join us to share your thoughts
-and ask your questions. I'll <span style="text-decoration: line-through">see
-you</span> hear you there!
+Our next public Mumble conference will be held tomorrow at 16:00 UTC, on
+voice.mnus.de, port 64738, in the sourcehut room. Feel free to join us to share
+your thoughts and ask your questions. I'll <span style="text-decoration:
+line-through">see you</span> hear you there!
 
 ## General news
 
