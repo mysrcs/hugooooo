@@ -54,3 +54,12 @@ curl --oauth2-bearer "$bearer_token" \
 Hey presto, your new website is live! [Check out the rest of the
 documentation](https://srht.site) for tips on automating this process, setting
 up a static site generator like Hugo, and how to use your own domain name.
+
+All sr.ht pages sites have some limitations to make them good internet citizens:
+
+- HTTPS is required
+- All third party resources, including Google Analytics, are blocked
+- CloudFlare's reverse proxy is blocked
+
+So everyone who visits a sr.ht page can be confident that everything is above
+board. Enjoy!
