@@ -9,6 +9,8 @@ pages](https://srht.site). SourceHut users can use this service to host static
 websites for any of their own domains, and every user is also being given
 "username.srht.site".
 
+Update: [gemini support](gemini://srht.site) is now available as well!
+
 You can use any static site generator: Jekyll, Hugo, Doxygen, or your own cool
 new thing. You can publish from git.sr.ht or hg.sr.ht, or you can set up any
 publishing workflow you prefer &mdash; you just need to upload a tarball. Every
