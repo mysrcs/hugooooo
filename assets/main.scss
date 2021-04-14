@@ -15,8 +15,6 @@ body {
   color: $black;
   background-color: white;
   font-family: sans-serif;
-  display: flex;
-  flex-direction: column;
   align-items: stretch;
 }
 
@@ -36,10 +34,6 @@ body {
       margin-bottom: 0;
     }
   }
-}
-
-main {
-  flex-grow: 1;
 }
 
 .service-grid {
