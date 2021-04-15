@@ -47,7 +47,7 @@ Image updates:
 We've been dealing with a rash of cryptocurrency mining attacks on builds.sr.ht
 this month, as you may have seen on [status.sr.ht](https://status.sr.ht). If
 you've experienced long queue times, this is why: we are playing a cat & mouse
-game trying to teach our systems to detect crypto miners, then udpating them
+game trying to teach our systems to detect crypto miners, then updating them
 again after the attackers figure out how to work around them and saturate our
 build queue with cryptocurrency miners.
 
