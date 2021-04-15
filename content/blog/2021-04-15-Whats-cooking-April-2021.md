@@ -33,6 +33,13 @@ Otherwise, things have been somewhat quiet, as (1) I've taken a little bit of ti
 off this month, and (2) we've been busy warding off attackers at the gates.
 Otherwise, we have been working quietly on builds.sr.ht's GraphQL API.
 
+## git.sr.ht
+
+This is not a new feature, but a couple of weeks ago, I made a short video
+demonstrating how to use git.sr.ht's web patchset tools.
+
+<iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" src="https://spacepub.space/videos/embed/ad258d23-0ac6-488c-83fc-2bacf578de3a" frameborder="0" allowfullscreen></iframe>
+
 ## builds.sr.ht
 
 The GraphQL API is making good progress, and I hope to have the initial version
