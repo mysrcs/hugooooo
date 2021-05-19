@@ -14,7 +14,6 @@ list is used for discussing the development of Sourcehut itself.
 ## Real time chat
 
 We use [IRC](https://en.wikipedia.org/wiki/IRC) for chat. You can join us on
-[Freenode](https://freenode.net/) with your favorite IRC client at
-[#sr.ht](irc://irc.freenode.net/#sr.ht), or on the web with [this
-link](http://webchat.freenode.net/?channels=%23sr.ht&uio=d4). There's not
-always someone online, so be prepared to send a follow-up email if necessary.
+[Libera.Chat](https://libera.chat/) with your favorite IRC client at
+[#sr.ht](irc://libera.chat/#sr.ht). There's not always someone online, so be
+prepared to send a follow-up email if necessary.
