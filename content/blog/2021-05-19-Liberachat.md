@@ -21,3 +21,9 @@ left for Libera Chat. We are sad to hear news of Freenode's fall, but proud to
 be following them, our friends and colleagues, to this new network.
 
 I'll see you there!
+
+**Update 2021-05-25**: The new staff at Freenode have been re-opening channels
+which moved to Libera.chat, including #sr.ht. I have re-closed this channel and
+will re-iterate in no uncertain terms that sourcehut has left Freenode for good.
+Any channels you see on Freenode which proport to represent sourcehut are not
+endorsed by this organization.
