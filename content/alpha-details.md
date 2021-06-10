@@ -6,27 +6,32 @@ title: What's the scope of Sourcehut's alpha?
 
 We aim for a higher standard of quality than most software & services working in
 this domain. What we consider an alpha passes for a production-ready system to
-some. We provide the following guarantees and caveats regarding the production
-quality of the SourceHut hosted services.
+some. Today, SourceHut is relied upon by thousands of projects as a robust,
+secure, and reliable service. We have [better uptime](https://status.sr.ht) than
+[GitHub](https://www.githubstatus.com/) or [GitLab](https://status.gitlab.com/).
 
 ## Alpha guarantees
 
-### Account data is safe and secure
+We provide the following guarantees regarding the production quality of the
+SourceHut hosted services:
 
-We carefully and constantly back everything up and multiple redundant systems
-have to fail before anything is lost &mdash; all important account data is
-stored with at least 4 redundancies, and as much as 8. Our backups are regularly
-tested and monitored, and have been proven in contingency situations. Your data
-will be carefully migrated and preserved through each stage of development, from
-alpha to beta and into production; there will not be a "clean slate" event.
+### Your account data is safe and secure
+
+We take frequent backups and use highly redundant systems to store your data.
+We utilize [extensive active monitoring](https://man.sr.ht/ops) and frequent
+testing to ensure the reliability of our backup systems. Each development change
+which requires changes to our storage systems is carefully planned for to ensure
+your account data is carried over intact. There will be no "clean slate" event
+as we progress from the alpha to the beta to production.
 
 We also take great pains to carefully ensure the security of all of its systems.
 We use a distributed architecture which shares data internally between services
-on a "need to know" basis. Your data is hosted on owned hardware colocated in
-private, secure facilities.  We do not use public clouds and we do not share
-your data with any other business, with the notable exception of payment
-processing (so that you don't have to trust us with your credit card number).
-For details, see [our privacy policy](https://man.sr.ht/privacy.md).
+on a "need to know" basis. Your data is hosted on privately owned hardware
+colocated in private, secure facilities. We do not use public clouds. We store
+only as much data as is necessary to faciliate your services, and data is shared
+with third-parties on a strict need-to-know basis, and only after you have
+explicitly consented to this sharing. For details, see
+[our privacy policy](https://man.sr.ht/privacy.md).
 
 ### Your voice matters
 
@@ -38,17 +43,21 @@ where we take questions and feedback from users.
 
 ## Alpha caveats
 
+However, we also hold some caveats regarding the alpha.
+
 ### Payment will be required later
 
 From the beta onwards, unpaid accounts will be limited to read-only access to
 their own projects. Affected users will be emailed at least 60 days in advance
 of the transition. Users who host their own instance of Sourcehut, on their own
-servers, will be unaffected by this.
+servers, will be unaffected by this. Additionally, financial aid will be
+provided to those who cannot pay; no one is going to be priced out.
 
-Unpaid accounts will still be able to contribute to projects on the platform,
-and in fact you can use most services without having an account at all. Payment
-will only be required to have ownership over resources, submit build jobs, and
-so on.
+The exact details of any billing changes will be discussed extensively with the
+community well in advance, and you are welcome to make yourself heard in these
+discussions.
+
+See the [billing FAQ](https://man.sr.ht/billing-faq.md) for details.
 
 ### Some services are incomplete
 
