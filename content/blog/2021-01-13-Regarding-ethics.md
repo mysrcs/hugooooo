@@ -17,7 +17,7 @@ Nazis are about" in one of the company's Slack channels. This occurred during an
 insurrection at the US Capitol by radical right-wing, racially-motivated
 terrorists, at least some of whom were wearing Nazi propaganda, for the purpose
 of uprooting the democratic process to install a fascist demagogue. The
-seditionist riot claimed the lives of at least six people.
+seditionist riot claimed lives.
 
 [^1]: Source: [Business Insider](https://www.businessinsider.com/microsoft-github-backlash-jewish-employee-termination-2021-1) (alternate without paywall: [Gizmodo](https://gizmodo.com/github-fired-a-jewish-employee-for-warning-that-nazis-1846047140))
 
