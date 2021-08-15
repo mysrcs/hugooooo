@@ -82,7 +82,7 @@ efforts of Haowen Liu and Timothée Floure.
 ## Miscellaneous
 
 Thanks are due to several community members for their contributions this month.
-Sol Fischer Romanoff did the long-stale job of auditing and unifying the naming
+Sol Fisher Romanoff did the long-stale job of auditing and unifying the naming
 conventions for resources like git repos or bug trackers across all services,
 along with some unrelated minor improvements. Thanks also to Nguyễn Gia Phong,
 LordNature, and Juan Picca for their various contributions.
