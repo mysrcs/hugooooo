@@ -52,8 +52,6 @@ The latest GQL rollout progress is now:
   <dd><strong class="text-success">✓</strong> read <strong class="text-danger">✗</strong> write</dd>
   <dt>hub.sr.ht</dt>
   <dd><strong class="text-danger">✗</strong> read <strong class="text-danger">✗</strong> write</dd>
-  <dt>dispatch.sr.ht</dt>
-  <dd><strong class="text-danger">✗</strong> read <strong class="text-danger">✗</strong> write</dd>
   <dt>paste.sr.ht</dt>
   <dd><strong class="text-danger">✗</strong> read <strong class="text-danger">✗</strong> write</dd>
   <dt>pages.sr.ht</dt>
