@@ -45,7 +45,7 @@ months, and you may choose which consulting projects you wish to work on. We
 charge high-end consulting rates, take a modest margin, and pay the rest to you.
 Our margin provides more capital for things like hiring new employees, expanding
 the forge infrastructure, long-term business planning, or simply paying out
-bonuses at the end of an enagement.
+bonuses at the end of an engagement.
 
 You have the level of autonomy and independence which best supports your needs.
 We have, at a minimum, bi-weekly open-ended 1-on-1 meetings, and a monthly
