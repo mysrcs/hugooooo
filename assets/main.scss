@@ -511,3 +511,25 @@ details {
   border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
   border-image-slice: 1;
 }
+
+.consultancy {
+  li {
+    margin-top: 1rem;
+  }
+  dl {
+    clear: both;
+  }
+  dt {
+    font-weight: bold;
+  }
+  dt:not(:first-child) {
+    margin-top: 0.5rem;
+  }
+  .event img {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    width: 128px;
+    height: 128px;
+  }
+}
