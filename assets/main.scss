@@ -162,7 +162,7 @@ nav {
     }
   }
 
-  @media(max-width: 720px) {
+  @media(max-width: 900px) {
     .hidden-small {
       display: none;
     }
@@ -503,4 +503,11 @@ details {
       margin-right: 0.5rem;
     }
   }
+}
+
+.nav-highlight {
+  border-bottom: 2px solid transparent;
+  border-top: 2px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
 }
