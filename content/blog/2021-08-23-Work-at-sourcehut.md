@@ -4,6 +4,9 @@ date: 2021-08-23
 author: Drew DeVault
 ---
 
+**This opening is now closed**. Please check back again later for future
+openings. Thanks!
+
 SourceHut is hiring paid software engineers to work exclusively on free and open
 source software. This is a full-time remote position. Our mission is simple:
 
