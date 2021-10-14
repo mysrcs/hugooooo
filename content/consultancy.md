@@ -43,7 +43,7 @@ project, we're the experts you need.
 We have a few requirements for projects we work with:
 
 1. **The output should be 100% free software**, as defined by the [Free
-   Software Foundation](https://www.gnu.org/licenses/license-list.html"). The
+   Software Foundation](https://www.gnu.org/licenses/license-list.html). The
    code we write for you has to be published with a free or open source
    software license.
 1. **The work should be conducted in public**, on public issue trackers,
