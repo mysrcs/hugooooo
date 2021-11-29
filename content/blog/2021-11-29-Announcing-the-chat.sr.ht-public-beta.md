@@ -36,7 +36,7 @@ can be as easy as clicking a link in the project's README.
 
 Our work is not limited to chat.sr.ht itself &mdash; we want to improve the IRC
 ecosystem as a whole. We are involved in upstream [IRCv3] development: we
-participate the standardization process by providing implementations and
+participate in the standardization process by providing implementations and
 feedback for work-in-progress specifications (for instance [chathistory]), and
 we're also pushing new specifications (for instance [extended-monitor]).
 Additionally, we've been contributing to [modern-irc], the de-facto IRC
