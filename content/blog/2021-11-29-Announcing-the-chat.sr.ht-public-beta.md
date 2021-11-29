@@ -29,7 +29,7 @@ established community of IRC networks like [Libera Chat].
 
 Our main goal is to make IRC easier to use for free software projects. For
 example, the bouncer exposes a special protocol extension to automatically
-configure all of your IRC networks, which helps skip the tedious process of
+connect to all of your IRC networks, which helps skip the tedious process of
 configuring every network you use. The web client can also be configured to open
 irc:// links around the web, so that getting involved in a project's discussion
 can be as easy as clicking a link in the project's README.
