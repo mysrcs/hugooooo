@@ -60,8 +60,8 @@ ecosystem stronger as a whole. Sometimes this work ultimately provides revenue
 &mdash; for example, Simon's [soju] and [gamja] projects were developed
 independently and eventually were incorporated into the paid [chat.sr.ht]
 product. We also developed [wlroots] together (starting before SourceHut was
-founded), which eventually was the basis of much of our consulting revenue. It's
-more common that these projects don't produce a return.
+founded), which eventually was the basis of much of our consulting revenue.
+However, it's more common that these projects don't produce a return.
 
 [soju]: https://sr.ht/~emersion/soju
 [gamja]: https://sr.ht/~emersion/gamja
