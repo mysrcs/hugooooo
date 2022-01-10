@@ -457,6 +457,21 @@ article.content {
   line-height: 1.3;
 }
 
+.next-prev {
+  max-width: 920px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  .prev {
+    align-self: flex-start;
+  }
+
+  .next {
+    align-self: flex-end;
+  }
+}
+
 blockquote {
   margin-left: calc(-4px - 1rem);
   margin-right: calc(-4px - 1rem);
