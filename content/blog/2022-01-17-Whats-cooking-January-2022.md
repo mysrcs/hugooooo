@@ -1,6 +1,7 @@
 ---
 title: What's cooking on SourceHut? January 2022
 date: 2022-01-17
+author: Drew DeVault
 ---
 
 Hello and happy new year! After a bit of well-deserved rest during the holidays,
