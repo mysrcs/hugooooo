@@ -1,5 +1,6 @@
 ---
 title: Welcoming Conrad Hoffmann, the newest SourceHut developer
+author: Drew DeVault
 date: 2022-02-02
 ---
 
