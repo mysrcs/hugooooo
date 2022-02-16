@@ -90,19 +90,41 @@ individual's experience or style.
 
 <div class="event">
 
+### Conrad Hoffmann
+
+![Conrad Hoffmann](https://l.sr.ht/Za_8.jpg)
+
+Conrad is an engineer for SourceHut with a background in systems programming and
+operations, whose contributions to free software includes work on KDE, HAProxy,
+and in the Prometheus ecosystem. Conrad also brings to the table extensive
+experience in large-scale cloud operations and security, as well as on-premises
+provisioning and hardware management.
+
+Expertise
+: Systems programming, cloud infrastructure, operations, security
+
+Website
+: [Conrad Hoffmann's blog](https://bitfehler.srht.site/)
+
+</div>
+
+<div class="event">
+
 ### Drew DeVault
 
 ![Drew DeVault](https://sr.ht/k_Gr.jpg)
 
-Drew is the founder and CEO of Sourcehut, and its principal engineer. He is
-also the original author of the [wlroots](https://github.com/swaywm/wlroots)
-and [sway](https://github.com/swaywm/sway) projects, a frequent contributor to
-Alpine Linux, and an expert in C, Go, and web technologies. Drew also has
+Drew is the founder and CEO of Sourcehut and one of its senior engineers. He is
+also the original author and maintainer of the
+[wlroots](https://gitlab.freedesktop.org/wlroots/wlroots) and
+[sway](https://github.com/swaywm/sway) projects, a frequent contributor to
+Alpine Linux, and an expert in C, Go, and web technologies, as well as graphics,
+compilers, language design, and operations and integration. Drew also has
 extensive writing experience, including tech & end-user docs, and is an expert
 software architect.
 
 Expertise
-: Systems programming, web development, operations, planning
+: Systems programming, web development, operations, planning & execution
 
 Website
 : [Drew DeVault's blog](https://drewdevault.com)
@@ -115,11 +137,14 @@ Website
 
 ![Simon Ser](https://sr.ht/V1_8.jpg)
 
-Simon is responsible for large swaths of Go's email ecosystem, serves as the
-release manager for Wayland upstream, and is the present maintainer of wlroots
-and sway. Simon also maintains many systems projects, such as the [mrsh
-shell](https://mrsh.sh) and most Go email libraries, and has made significant
-contributions to Linux, Mesa, Monado & OpenXR, and more.
+Simon is a senior engineer at SourceHut who is responsible for large swaths of
+Go's email ecosystem, serves as the release manager for Wayland upstream, and is
+the present maintainer of wlroots and sway. Simon also maintains many
+IRC-related efforts and publishes a variety of open source systems software,
+and Simon has made significant contributions to Linux, Mesa, Monado & OpenXR,
+and many other free software projects.
+
+[tlstunnel]: https://sr.ht/~emersion/tlstunnel/
 
 Expertise
 : Systems programming, email software, free/libre graphics programming
