@@ -18,7 +18,7 @@ details.
 [0]: https://sourcehut.org/blog/2022-04-08-2021-financial-report/
 
 We have been making excellent progress on the GraphQL initiative thanks to
-Andnan's help, and I anticipate that we will be able to put a bow on this
+Adnan's help, and I anticipate that we will be able to put a bow on this
 sometime in the next couple of months.
 
 ## hg.sr.ht
