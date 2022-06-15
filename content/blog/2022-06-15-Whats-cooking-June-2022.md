@@ -45,7 +45,7 @@ make plans for sunsetting REST.
 ## lists.sr.ht
 
 We are preparing some changes to mailing list visibility to bring it inline with
-the design of other services. Permissions will be consolodated into a single
+the design of other services. Permissions will be consolidated into a single
 default set, and a "visibility" parameter will be added which matches the
 behavior of other services. Sane defaults for these new configurations will be
 selected based on your current configuration &mdash; you will have received an
