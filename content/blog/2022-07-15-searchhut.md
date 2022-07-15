@@ -61,12 +61,12 @@ handful of larger sites: Wikipedia, MDN, arXiv, etc. Sites can be indexed with
 [the crawler][crawler], or with a custom importer, like [this one for
 Wikipedia][wiki]. The full criteria for inclusion is [documented
 here][criteria]. To request to have your domain or a domain you like added to
-the index, please fill out the [request form][req].
+the index, please fill out a [domain request][req].
 
 [crawler]: https://searchhut.org/docs/docs/webadmins/crawler/
 [wiki]: https://git.sr.ht/~sircmpwn/searchhut/tree/master/item/import/mediawiki/main.py
 [criteria]: https://searchhut.org/docs/docs/webadmins/requirements/
-[req]: https://searchhut.org/request
+[req]: ~sircmpwn/searchhut-discuss@lists.sr.ht
 
 We are also working on some nice features for making searches easier. For
 instance, each website is stored alongside with a set of useful tags that apply
