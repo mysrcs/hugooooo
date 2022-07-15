@@ -66,7 +66,7 @@ the index, please fill out a [domain request][req].
 [crawler]: https://searchhut.org/docs/docs/webadmins/crawler/
 [wiki]: https://git.sr.ht/~sircmpwn/searchhut/tree/master/item/import/mediawiki/main.py
 [criteria]: https://searchhut.org/docs/docs/webadmins/requirements/
-[req]: ~sircmpwn/searchhut-discuss@lists.sr.ht
+[req]: mailto:~sircmpwn/searchhut-discuss@lists.sr.ht
 
 We are also working on some nice features for making searches easier. For
 instance, each website is stored alongside with a set of useful tags that apply
