@@ -6,7 +6,7 @@ date: 2022-07-18
 
 Good morning, SourceHut! Today we have 30,815 users, 1,203 of which are joining
 us for the first time this month &mdash; a big increase! To all of our new
-users: welcome! To all of our more tentured users: be sure to offer our new
+users: welcome! To all of our more tenured users: be sure to offer our new
 friends a warm welcome and do your part to help them learn how to use SourceHut.
 
 # GraphQL
