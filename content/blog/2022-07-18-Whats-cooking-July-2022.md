@@ -78,7 +78,7 @@ to tease: an overhaul to the billing system.
 Some of the improvements which will be on offer include:
 
 - New payment methods, such as iDEAL and SEPA direct deposit
-- The ability to enable or disable automatic rewewal
+- The ability to enable or disable automatic renewal
 - More currencies to pay with
 - Better payment method management & invoicing
 
