@@ -81,6 +81,10 @@ necessary, reviewing code and assumptions, and lending assistance
 with planning, execution, and logistics. We also handle billing and
 price negotiation.
 
+To learn more about the logistics of our free software consultancy work, check
+out [this blog post](/blog/2022-08-23-how-does-our-consultancy-work/) on the
+subject.
+
 ## Our engineers
 
 Most of our engineers publish monthly "status update" articles on
