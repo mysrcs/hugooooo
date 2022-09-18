@@ -8,7 +8,7 @@ type: custom
 Sourcehut is the home to some of the most talented software engineers in the
 world. Free and open-source software is eating the world, and we have
 front-line engineers with knowledge and connections to the free software
-community. We offer our services as a consultants focusing exclusively on free
+community. We offer our services as consultants focusing exclusively on free
 software projects.
 
 Why should you hire our engineers?
