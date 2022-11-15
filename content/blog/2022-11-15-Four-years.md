@@ -18,7 +18,7 @@ my sincere thanks to the thousands of people who have joined SourceHut and
 helped build a welcoming, productive community of free software developers. I
 offer my thanks to you, dear reader, for your profound role in these
 achievements. I struggle to find the right words to express the enormity of my
-graditude.
+gratitude.
 
 In lieu of adequate words to describe it, we strive to express this gratitude
 through our actions. Our work is entirely free software, and our community are
@@ -29,7 +29,7 @@ maintainers of various subsystems in their lines of expertise, and we have
 offered them trust and responsibility equal to the degree of their contributions
 and investment.
 
-We have further increased our committment to transparency and honesty in our
+We have further increased our commitment to transparency and honesty in our
 affairs this year, be it with our [financial reporting][1]; operations
 [wiki][2], [data][3], and [monitoring][4]; our [staff wiki][5]; or cultural
 artifacts such as striving to make our staff members directly accessible to
