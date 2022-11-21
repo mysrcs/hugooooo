@@ -13,7 +13,7 @@ promote an open and secure internet.
 
 The typical NLnet grant is structured by milestones. At the beginning of the
 grant, a project plan is drafted containing the milestones to be completed and
-an agreed upon payment for each milestone. Once a milestone was completed, NLnet
+an agreed upon payment for each milestone. Once a milestone is completed, NLnet
 verifies that the milestone had been completed and approves the payment. If you
 think this might be a good fit for your project, consider [applying for a
 grant][apply]!
