@@ -58,11 +58,12 @@ software to become dependent on modules or module versions which no longer
 exist.
 
 More importantly for SourceHut, the proxy will regularly fetch Go packages from
-their source repository to check for updates. These requests take the form of a
-complete git clone of the source repository, which is the most expensive kind of
-request for git.sr.ht to service. Additionally, these requests originate from
-many servers which do not coordinate with each other to reduce their workload.
-The frequency of these requests can be as high as ~2,500 per hour, often batched
+their source repository to check for updates -- independent of any user
+requests, such as running `go get`. These requests take the form of a complete
+git clone of the source repository, which is the most expensive kind of request
+for git.sr.ht to service. Additionally, these requests originate from many
+servers which do not coordinate with each other to reduce their workload. The
+frequency of these requests can be as high as ~2,500 per hour, often batched
 with up to a dozen clones at once, and are generally highly redundant: a single
 git repository can be fetched over 100 times per hour.
 
