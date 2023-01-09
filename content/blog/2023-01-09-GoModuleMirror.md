@@ -28,8 +28,7 @@ go: git.sr.ht/~sircmpwn/foobaz@v0.0.0-20230108094957-81402546c10e: verifying mod
 The following workaround will correct the issue:
 
 ```
-$ export GOPROXY=direct
-$ export GOSUMDB=off
+$ export GOPRIVATE=git.sr.ht
 $ go get # works
 ```
 
@@ -142,8 +141,7 @@ go: git.sr.ht/~sircmpwn/foobaz@v0.0.0-20230108094957-81402546c10e: verifying mod
 You can correct it by bypassing proxy.golang.org:
 
 ```
-$ export GOPROXY=direct
-$ export GOSUMDB=off
+$ export GOPRIVATE=git.sr.ht
 $ go get # works
 ```
 
