@@ -151,7 +151,7 @@ building it out, and we hope to shut down the Philadelphia datacenter in 2023 or
 early 2024, saving about $600/mo in operating expenses.
 
 We have closed out a major consulting engagement in Q1 2023 and we anticipate a
-significant reduction in consulting revenue as a conseqeunce. We hope to
+significant reduction in consulting revenue as a consequence. We hope to
 complete the beta this year (you may have heard that before...), which would
 likely correspond with a significant increase in platform revenue.
 
