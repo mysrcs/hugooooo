@@ -83,7 +83,6 @@ with the broader Hare community. We also maintain a number of Hare libraries:
 * [hare-redis](https://git.sr.ht/~sircmpwn/hare-redis): Redis support for Hare
 * [hare-sdl2](https://git.sr.ht/~sircmpwn/hare-sdl2): SDL2 bindings for Hare
 * [hare-ssh](https://git.sr.ht/~sircmpwn/hare-ssh): SSH protocol support
-* [hare-vec](https://git.sr.ht/~sircmpwn/hare-vec): Compression algorithms for Hare
 * [hare-vec](https://git.sr.ht/~sircmpwn/hare-vec): Vector graphics for Hare
 * [hare-vt](https://git.sr.ht/~sircmpwn/hare-vt): Hare library for driving terminals
 * [hare-wayland](https://git.sr.ht/~sircmpwn/hare-wayland): Wayland protocol support
