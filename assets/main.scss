@@ -553,3 +553,31 @@ details {
   text-align: center;
   font-size: 0.8rem;
 }
+
+.toc {
+  margin-top: 1rem;
+
+  ul {
+    margin: 0;
+  }
+
+  & > nav > ul {
+    padding: 0;
+  }
+}
+
+.contributions .article-content {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -3rem;
+
+    li {
+      list-style: none;
+      width: calc(50% - 3rem);
+      margin: 0.5rem 1rem;
+      padding: 0.5rem;
+      background: #eee;
+    }
+  }
+}

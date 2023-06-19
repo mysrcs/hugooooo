@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<title>{{.Title}} - Sourcehut</title>
+		{{ partial "head.html" }}
+	</head>
+	<body class="{{.Params.Pageclass}}">
+		{{ partial "nav.html" }}
+		<main>
+			<header>
+				<div class="heading">
+					<div class="info">
+						<div class="content">
+							{{.Params.Subtitle}}
+						</div>
+					</div>
+					<div class="content">
+						<h1>
+							{{.Title}}
+						</h1>
+					</div>
+				</div>
+			</header>
+			<article class="content {{.Params.class}}">
+				<details class="toc">
+					<summary>Table of contents</summary>
+					{{ .TableOfContents }}
+				</details>
+				<div class="article-content">
+					{{ .Content }}
+				</div>
+			</article>
+		</main>
+		{{ partial "footer.html" }}
+	</body>
+</html>
