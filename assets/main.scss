@@ -242,6 +242,11 @@ a {
     display: block;
     text-align: center;
   }
+
+  $parent: &;
+  @at-root a#{&} {
+    text-decoration: none;
+  }
 }
 
 .form-group {
