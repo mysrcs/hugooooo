@@ -185,6 +185,11 @@ form {
   margin-bottom: 1rem;
 }
 
+// Place this above a:hover styles for that to take effect
+a.blog-link, nav a {
+  text-decoration: none;
+}
+
 a {
   color: $primary;
 
