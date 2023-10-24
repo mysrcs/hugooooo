@@ -1,16 +1,14 @@
 image: alpine/edge
 packages:
-  - rsync
   - hugo
+  - hut
+oauth: "pages.sr.ht/PAGES:RW"
 sources:
   - https://git.sr.ht/~sircmpwn/sourcehut.org
-secrets:
-  - fa00a8d3-7b63-42d5-8060-3bb31c3e3018 # ssh deploy key
 tasks:
 - build: |
     cd sourcehut.org
     hugo
 - upload: |
     cd sourcehut.org
-    echo "StrictHostKeyChecking=no" >> ~/.ssh/config
-    rsync -rP public/ deploy@static1.sr.ht:/var/www/sourcehut.org/
+    hut pages publish -d sourcehut.org ./public/
