@@ -37,9 +37,7 @@ explicitly consented to this sharing. For details, see
 
 We welcome feedback and questions in public on the
 [sr.ht-discuss](https://lists.sr.ht/~sircmpwn/sr.ht-discuss) mailing list, or in
-private [via email](mailto:sir@cmpwn.com). We also hold public voice meetings on
-the 16th of every month, the exact time of each to be announced the date prior,
-where we take questions and feedback from users.
+private [via email](mailto:~sircmpwn/sr.ht-support@lists.sr.ht).
 
 ## Alpha caveats
 
