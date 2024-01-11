@@ -176,7 +176,7 @@ nav {
 .icon {
   display: inline-block;
   line-height: .75em;
-  
+
   path {
     fill: currentColor;
   }
@@ -615,4 +615,8 @@ table th,
 table td {
 	padding: .5em;
 	border: 1px solid lightgrey;
+}
+
+.pricing-table {
+  width: 100%;
 }
