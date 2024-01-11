@@ -619,4 +619,26 @@ table td {
 
 .pricing-table {
   width: 100%;
+  max-width: 20rem;
+
+  // Right-align first column
+  > thead > tr > th:first-child,
+  > tbody > tr > td:first-child {
+    text-align: right;
+  }
+
+  // Increase table headers to be larger than first column
+  > thead > tr > th {
+    font-size: 1.2rem;
+  }
+
+  // Distinguish services from prices by making them a bit larger
+  > tbody > tr > td:first-child {
+    font-size: 1.1rem;
+  }
+
+  // Emphasize services which require payment
+  .payment-required {
+    font-weight: bold;
+  }
 }
