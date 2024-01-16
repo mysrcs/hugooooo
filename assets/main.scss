@@ -91,6 +91,10 @@ img, video {
   color: #2bb34b;
 }
 
+.text-warning {
+  color: darken(#ffc107, 10);
+}
+
 .text-danger {
   color: #ff3e3e;
 }
@@ -368,6 +372,11 @@ header {
   }
 
   h1 {
+    // XXX TEMP
+    border: 1px solid darken(#f1aeb5, 10) !important;
+    background: darken(#f8d7da, 20) !important;
+    // END TEMP
+
     padding: 0.25rem 1rem;
     margin: 0 -1rem 0.5rem -1rem;
     background: rgba(255, 255, 255, 1.0);
