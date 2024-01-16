@@ -62,7 +62,7 @@ The current service status is as follows:
     </tr>
     <tr>
       <td>builds.sr.ht</td>
-      <td><span class="text-success">Full service</span><sup>3</sup></td>
+      <td><span class="text-success">Full service</span></td>
     </tr>
     <tr>
       <td>chat.sr.ht</td>
@@ -100,7 +100,3 @@ For users with apex records, please update your apex record as follows:
 This IP address is available on a temporary basis. Make sure your email address
 on file is up-to-date; we will email you if and when it changes to notify you
 of the steps required to update your website.
-
-<sup>3</sup> builds is currently running at half of its planned capacity. We are
-working on bringing it up to full capacity by tomorrow morning, but in the
-meanwhile you may experience longer queue times for your build jobs.
