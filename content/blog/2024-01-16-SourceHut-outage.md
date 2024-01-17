@@ -95,7 +95,7 @@ caveats:
 
 For users with apex records, please update your apex record as follows:
 
-    @   IN  A   141.95.4.185
+    @   IN  A   46.23.81.157
 
 This IP address is available on a temporary basis. Make sure your email address
 on file is up-to-date; we will email you if and when it changes to notify you
