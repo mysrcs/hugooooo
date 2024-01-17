@@ -66,11 +66,11 @@ The current service status is as follows:
     </tr>
     <tr>
       <td>chat.sr.ht</td>
-      <td class="text-danger">Out of service</td>
+      <td class="text-success">Full service</td>
     </tr>
     <tr>
       <td>pages.sr.ht</td>
-      <td><span class="text-warning">Degraded service</span><sup>2</sup></td>
+      <td><span class="text-warning">Degraded performance</span><sup>2</sup></td>
     </tr>
   </tbody>
 </table>
