@@ -156,9 +156,9 @@ question, whereas SourceHut has user-facing services through not only HTTPS but
 also SSH, SMTP, and IRC; moreover we strongly prefer to utilize end-to-end
 encryption on all traffic and terminate it on SourceHut-operated infrastructure.
 
-We initially researched a number of solutions, and spoke to CloudFlare in
+We initially researched a number of solutions, and spoke to Cloudflare in
 particular due to their ability to provide a rapid response to ongoing
-incidents. However, given our complex requirements, CloudFlare quoted us a
+incidents. However, given our complex requirements, Cloudflare quoted us a
 figure which was not attainable within our financial means as a small company.
 Other options we researched (though we did not seek additional quotes) had
 similar economical constraints. However, we found that OVH's anti-DDoS
@@ -182,13 +182,13 @@ DDoS was briefly forwarded to AMS before OVH's mitigations kicked in, which made
 our brand new OVH account look like the source of an *outgoing* DDoS, with
 predicable consequences that took some work to resolve with OVH.
 
-Following our initial quote from CloudFlare, we understand that some CloudFlare
+Following our initial quote from Cloudflare, we understand that some Cloudflare
 employees undertook a grassroots effort internally to convince the leadership to
-sponsor our needs, and eventually CloudFlare came back to us with an offer to
+sponsor our needs, and eventually Cloudflare came back to us with an offer to
 sponsor our services for us free of charge. This was a very generous offer for
 which we are very appreciative; in the end we did not take them up on it as we
 had made substantial inroads towards an alternative solution by that time. I
-have had my reservations about CloudFlare in the past, but they were there for
+have had my reservations about Cloudflare in the past, but they were there for
 us in a time of need and I am grateful for that.
 
 On January 12th, our network provider in PHL agreed to provision a temporary
@@ -318,7 +318,7 @@ attack in retaliation for the services they provided to us. We shared
 information across our teams extensively and their communication and
 relationship with SourceHut has always been superb.
 
-I'd also like to thank the team at CloudFlare; though we did not accept your
+I'd also like to thank the team at Cloudflare; though we did not accept your
 generous offer we were appreciative that you were there for us in a time of
 need.
 
