@@ -62,7 +62,7 @@ SourceHut:
 * [hydroxide](https://github.com/emersion/hydroxide): A third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge 
 * [tokidoki](https://sr.ht/~sircmpwn/tokidoki/): A small and robust calendar & contacts server
 
-### The Hare programming langauge
+### The Hare programming language
 
 [Hare](https://harelang.org) is a systems programming language designed to be
 simple, stable, and robust. Hare uses a static type system, manual memory
@@ -70,7 +70,7 @@ management, and a minimal runtime. It is well-suited to writing operating
 systems, system tools, compilers, networking software, and other low-level, high
 performance tasks.
 
-We design, develop, and maintain the Hare programming langauge in collaboration
+We design, develop, and maintain the Hare programming language in collaboration
 with the broader Hare community. We also maintain a number of Hare libraries:
 
 * [hare-compress](https://git.sr.ht/~sircmpwn/hare-compress): Compression algorithms for Hare
