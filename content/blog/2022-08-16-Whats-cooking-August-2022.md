@@ -1,5 +1,6 @@
 ---
 title: What's cooking on SourceHut? August 2022
+author: Drew DeVault
 date: 2022-08-16
 ---
 
