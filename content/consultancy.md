@@ -135,27 +135,4 @@ Website
 
 </div>
 
-<div class="event">
-
-### Simon Ser
-
-![Simon Ser](https://sr.ht/V1_8.jpg)
-
-Simon is a senior engineer at SourceHut who is responsible for large swaths of
-Go's email ecosystem, serves as the release manager for Wayland upstream, and is
-the present maintainer of wlroots and sway. Simon also maintains many
-IRC-related efforts and publishes a variety of open source systems software,
-and Simon has made significant contributions to Linux, Mesa, Monado & OpenXR,
-and many other free software projects.
-
-[tlstunnel]: https://sr.ht/~emersion/tlstunnel/
-
-Expertise
-: Systems programming, email software, free/libre graphics programming
-
-Website
-: [emersion.fr](https://emersion.fr)
-
-</div>
-
 <p><!-- This is just here to add some space --></p>
