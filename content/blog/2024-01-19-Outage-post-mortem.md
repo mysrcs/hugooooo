@@ -47,7 +47,7 @@ production, as well as daily backups of large data silos such as git.sr.ht. We
 have a comprehensive monitoring system in place which, among monitoring other
 systems, keeps track of these backups and notifies us when their metrics fall
 outside of our window; for instance we receive an alarm if the database replica
-is more than 5 minutes behind production of if large storage backups exceed 48
+is more than 5 minutes behind production or if large storage backups exceed 48
 hours.
 
 We maintain a comprehensive set of operational plans for responding to various
