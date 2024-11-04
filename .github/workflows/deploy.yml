@@ -24,7 +24,13 @@ jobs:
           sparse-checkout-cone-mode: false
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
+      - name: Move files to root
+        run: |
+          ls -lah
+          shopt -s dotglob
+          mv docs/* .
+          rm -rf docs
+          ls -lah
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
