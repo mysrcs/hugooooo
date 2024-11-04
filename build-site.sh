@@ -14,7 +14,7 @@ if [[ "${GITHUB_ACTIONS}" = "true" ]]; then
 fi
 
 
-USE_BASE_URL_SITE="/hugooooo/"
+USE_BASE_URL_SITE=""
 if [[ "${NETLIFY}" = "true" ]]; then
   echo -e "\033[0;32mNetlify detected, deployment happening at ${DEPLOY_PRIME_URL}...\033[0m"
   USE_BASE_URL_SITE="--baseURL ${DEPLOY_PRIME_URL}"
