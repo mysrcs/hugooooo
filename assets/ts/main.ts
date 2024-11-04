@@ -1,9 +1,9 @@
 /*!
-*   Hugo Theme Stack
+*   Hugo Theme
 *
-*   @author: Jimmy Cai
-*   @website: https://jimmycai.com
-*   @link: https://github.com/CaiJimmy/hugo-theme-stack
+*   @author: Author
+*   @website: https://example.com
+*   @link: https://github.com/username/hugo-theme-repo
 */
 import StackCodeBlock from "ts/codeblock";
 import menu from 'ts/menu';
