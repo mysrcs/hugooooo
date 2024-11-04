@@ -1,5 +1,5 @@
 <center><h1>DON'T READ ME</h1></center>
-
+<!--
 ![image](#/images/banner.png)
 
 # Hugo Theme Repo
@@ -27,3 +27,4 @@ Visit [example.com/theme-repo/docs](https://example.com/theme-repo/docs)
 Please remove the "*Theme Repo designed by Designer*" text and link.
 
 If you want to port this theme to another blogging platform, please don't let me know🙏.
+-->
