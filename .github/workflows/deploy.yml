@@ -20,8 +20,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          sparse-checkout: 'docs'
-          sparse-checkout-cone-mode: false
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       - name: Setup Hugo
@@ -33,17 +31,10 @@ jobs:
         run: hugo --minify
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        # if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/public
-      - name: Move files to root
-        run: |
-          ls -lah
-          shopt -s dotglob
-          mv docs/* .
-          rm -rf docs
-          ls -lah
+          publish_dir: ./public
 
       # - name: Delete Build Artifact
         # uses: joutvhu/delete-artifact@v2.0.1
