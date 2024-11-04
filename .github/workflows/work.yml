@@ -2,8 +2,7 @@ name: Publish and Cleanup
 
 on:
   push:
-    branches:
-      - default
+    branches:["default"]
     paths:
       - 'docs/**'
 
