@@ -1,10 +1,10 @@
-![image](/images/banner.png)
+![image](#/images/banner.png)
 
 # Hugo Theme Repo
 
-<img align="right" width="150" alt="logo" src="/exampleSite/assets/img/logo.jpg">
+<img align="right" width="150" alt="logo" src="#/exampleSite/assets/img/logo.jpg">
 
-Specific-style Hugo theme designed by a [blogger](https://example.com) for bloggers.
+Specific-style Hugo theme designed by a me for my [website](https://example.com).
 
 ## Quickstart
 
