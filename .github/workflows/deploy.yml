@@ -1,5 +1,4 @@
 name: Publish and Flush
-
 on:
   push:
     branches:
@@ -11,14 +10,13 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
         contents: write # Give the default GITHUB_TOKEN write permission to commit and push the added or changed files to the repository.
-    # concurrency:
-      # group: ${{ github.workflow }}-${{ github.ref }}
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -26,6 +24,19 @@ jobs:
           sparse-checkout-cone-mode: false
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+      - name: Build
+        run: hugo --minify
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        # if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/public
       - name: Move files to root
         run: |
           ls -lah
@@ -33,21 +44,6 @@ jobs:
           mv docs/* .
           rm -rf docs
           ls -lah
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: 'latest'
-          extended: true
-
-      - name: Build
-        run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        # if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/public
 
       # - name: Delete Build Artifact
         # uses: joutvhu/delete-artifact@v2.0.1
