@@ -1,5 +1,5 @@
-baseURL = "https://sourcehut.org/"
-title = "Sourcehut"
+baseURL = "/hugoooooo/"
+title = "MySrcs"
 pygmentsUseClasses = true
 
 [markup.goldmark.renderer]
