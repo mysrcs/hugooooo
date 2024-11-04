@@ -4,6 +4,6 @@
   content="sourcehut is a network of useful open source tools for software project maintainers and collaborators, including git repos, bug tracking, continuous integration, and mailing lists." />
 <link href="/logo.svg" rel="icon" type="image/svg+xml"/>
 <link href="/logo.png" rel="icon" sizes="any" type="image/png"/>
-{{ $style := resources.Get "main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+{{ $style := resources.Get "main.scss" | css.Sass | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="/blog/index.xml">
