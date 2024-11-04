@@ -1,4 +1,5 @@
-baseURL = "/hugoooooo/"
+baseURL = "/"
+url = "https://mysrcs.github.io"
 title = "MySrcs"
 pygmentsUseClasses = true
 
