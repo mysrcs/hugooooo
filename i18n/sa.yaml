@@ -1,0 +1,73 @@
+toggleMenu:
+  other: सूचीं दृश्यते
+
+darkMode:
+  other: कृष्णावस्था
+
+list:
+  page:
+    one: "{{ .Count }} पेज"
+    other: "{{ .Count }} पेज"
+
+  section:
+    other: खंड
+
+  subsection:
+    one: खण्डः
+    other: उपविभागः
+
+article:
+  back:
+    other: पृष्ठभागः 
+
+  tableOfContents:
+    other: विषयसूचीः
+
+  relatedContent:
+    other: सम्बन्धित सामग्री
+
+  lastUpdatedOn:
+    other: अन्तिमम् अद्यतनम्
+
+  readingTime:
+    one: "{{ .Count }} निमेषान् पढ़ें"
+    other: "{{ .Count }} निमेषान् पढ़ें"
+
+notFound:
+  title:
+    other: 404 न लब्धः।
+
+  subtitle:
+    other: एतत् पृष्ठं नास्ति।
+
+widget:
+  archives:
+    title:
+      other: अभिलेखागाराः
+
+    more:
+      other: अधिकः
+
+  tagCloud:
+    title:
+      other: नामपत्र
+  categoriesCloud:
+    title:
+      other: श्रेणयः
+
+search:
+  title:
+    other: अन्वेष्टुम्
+
+  placeholder:
+    other: किमपि लिखतु...
+
+  resultTitle:
+    other: "#PAGES_COUNT पेज (#TIME_SECONDS क्षण)"
+
+footer:
+  builtWith:
+    other: {{ .Generator }} सह निर्मितम्
+
+  designedBy:
+    other: प्ररचन ( {{ .Theme }} ) इत्यनेन क्रियते {{ .DesignedBy }}।
