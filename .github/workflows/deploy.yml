@@ -28,12 +28,12 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
-          personal_token: ${{ secrets.OUR_CI_TOKEN }}
+          # personal_token: ${{ secrets.OUR_CI_TOKEN }}
           publish_dir: ./docs/public
-          publish_branch: publish
-          user_name: 'The CI Bot'
-          user_email: 'mysrcs-ci@users.noreply.github.com'
-          commit_message: ${{ github.event.head_commit.message }}
+          publish_branch: default
+          # user_name: 'The CI Bot'
+          # user_email: 'mysrcs-ci@users.noreply.github.com'
+          # commit_message: ${{ github.event.head_commit.message }}
           # cname: www.example.com
 
       - name: Delete Build Artifact
