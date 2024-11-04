@@ -1,10 +1,9 @@
-name: Publish and Cleanup
+name: work
 
 on:
+  # Runs on pushes targeting the default main branch
   push:
-    branches:["default"]
-    paths:
-      - 'docs/**'
+    branches: ["default"]
 
 jobs:
   build:
