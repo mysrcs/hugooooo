@@ -1,3 +1,5 @@
+<center><h1>DON'T READ ME</h1></center>
+
 ![image](#/images/banner.png)
 
 # Hugo Theme Repo
