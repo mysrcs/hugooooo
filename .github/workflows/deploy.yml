@@ -2,19 +2,17 @@ name: Publish and Flush
 on:
   push:
     branches:
-      - default
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+      - main 
 concurrency:
-  group: "pages"
+  group: "pages" 
   cancel-in-progress: false
 jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
-        contents: write # Give the default GITHUB_TOKEN write permission to commit and push the added or changed files to the repository.
+        contents: write # read Give the default GITHUB_TOKEN write permission to commit and push the added or changed files to the repository.
+        pages: write
+        id-token: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
