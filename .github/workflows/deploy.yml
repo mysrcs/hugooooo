@@ -7,7 +7,6 @@ on:
 
 jobs:
   deploy:
-    # if: contains(toJson(github.event.commits), '[deploy site]') == true
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout repo
@@ -19,15 +18,11 @@ jobs:
         with:
           hugo-version: ' 0.136.5'
           extended: true
-      - name: Build
-        run: chmod +x build-site.sh && ./build-site.sh
-        env:
-          OUR_CI_TOKEN: ${{ secrets.GITHUB_TOKEN }} # ${{secrets.OUR_CI_TOKEN}}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.OUR_CI_TOKEN }}
-          publish_dir: ./website_and_docs/public
+          publish_dir: ./docs/public
           publish_branch: publish
           user_name: 'The CI Bot'
           user_email: 'mysrcs-ci@users.noreply.github.com'
